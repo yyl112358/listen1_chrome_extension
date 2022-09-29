@@ -1,10 +1,15 @@
+@font-face {
+  font-family: wuxiawenkai;
+  src: url(../fonts/LXGWWenKai-Regular.ttf);
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
   font-size: var(--text-default-size);
   color: var(--text-default-color);
-  font-family: system-ui, 'PingFang SC', STHeiti, sans-serif;
+  font-family: wuxiawenkai, system-ui, 'PingFang SC', STHeiti, sans-serif;
   background-color: var(--color-body-bg);
   transition: background 0.2s;
 }
@@ -489,7 +494,7 @@ https://stackoverflow.com/questions/19889615/can-an-angular-directive-pass-argum
 }
 
 .playlist-covers li {
-  flex: 0 1 calc(20% - 26px);
+  flex: 0 1 calc(16% - 24px);
   min-height: 156px;
   color: var(--text-default-color);
   margin: 0 12px;
@@ -2575,7 +2580,7 @@ svg.searchspinner {
 }
 .source-list .source-button.active .buttontext,
 .source-list .source-button .buttontext.active {
-  border-bottom: solid 2px var(--text-default-color);
+  background-color: rgba(225, 225, 225, 0.8);
 }
 .source-list .source-button:hover .buttontext,
 .source-list .source-button .buttontext:hover {
