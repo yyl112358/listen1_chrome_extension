@@ -337,6 +337,8 @@ svg {
 }
 .sidebar ul li a {
   width: 125px;
+  font-size: 16px;
+  font-weight: 600;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -457,7 +459,7 @@ https://stackoverflow.com/questions/19889615/can-an-angular-directive-pass-argum
   background-color: transparent;
   border-style: none;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--text-default-color);
 }
 
@@ -605,7 +607,6 @@ ul.detail-songlist li .desc {
 ul.detail-songlist li .desc div.title {
   word-break: break-all;
   font-size: 16px;
-  font-weight: 600;
   line-height: 20px;
   word-break: break-all;
   display: flex;
